@@ -1,0 +1,25 @@
+[28.006315231] 2020-04-27 16:29:14,758 - INFO - launcher: Starting sanity checks
+[28.006315231] 2020-04-27 16:29:14,758 - INFO - launcher: Checking for Python 3.5+
+[29.006481171] 2020-04-27 16:29:14,759 - INFO - launcher: Checking console encoding
+[29.006481171] 2020-04-27 16:29:14,759 - INFO - launcher: Setting console encoding to UTF-8
+[29.006481171] 2020-04-27 16:29:14,759 - INFO - launcher: Ensuring we're in the right environment
+[30.007362366] 2020-04-27 16:29:14,760 - INFO - launcher: Adding local bins/ folder to path
+[576.129674911] 2020-04-27 16:29:15,306 - INFO - launcher: Required checks passed.
+[576.129674911] 2020-04-27 16:29:15,306 - INFO - launcher: Optional checks passed.
+[576.129674911] 2020-04-27 16:29:15,306 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[1.1272730827331543] 2020-04-27 16:29:15,857 - WARNING - musicbot.config | In config.py::MainThread(5248), line 121 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1.128273010] launcher-INFO: 
+An error has occured reading the config:
+
+  Problem:
+    Your i18n file was not found, and we could not fallback.
+
+  Solution:
+    As a result, the bot cannot launch. Have you moved some files? Try pulling the recent changes from Git, or
+    resetting your local repo.
+
+
+[1.128273010] launcher-INFO: All done.
